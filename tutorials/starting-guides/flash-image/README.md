@@ -2,7 +2,7 @@
 
 This guide provides instructions for flashing or updating the system image on the Q911 platforms, including EXEC-Q911 and APEX-A100.
 
-If you need a new flash package, please contact us first. We mainly provide Yocto Linux images. If you want to run Ubuntu and make sure all IO functions work correctly, please contact us to obtain a validated image.
+If you need a new flash package, please contact us first. We mainly provide Yocto Linux images, built from [meta-iQ__manifest](https://github.com/InnoIPA/meta-iQ__manifest). If you want to run Ubuntu and keep all IO functions working correctly, please contact us to obtain a validated Innodisk-ported image — see [iQ-ubuntu__manifest](https://github.com/InnoIPA/iQ-ubuntu__manifest) for the available versions.
 
 The steps below ensure that your flashing process completes successfully, as the hardware must be switched to the correct mode before flashing.
 
@@ -126,10 +126,4 @@ Please also confirm that all boot mode DIP switches are set to `ON`, as shown be
 
 After the board is back in `Normal mode`, power on the device and boot into the system.
 
-After the system boots, please refer to the [Q911 Quick Start Guide: Interact with the System](../q911/README.md#step-3-interact-with-the-system) for the supported interaction methods, including DisplayPort, SSH, ADB, and UART.
-
-If you log in to Ubuntu and find that the network is not available, you can install the `iq-ubuntu.deb` package provided by us by following the steps below:
-
-1. Use a USB storage device to copy the `iq-ubuntu.deb` file to the system. The package is included in the BSP image folder.
-2. Install the package using `sudo apt install </path/to/iq-ubuntu.deb>`.
-3. Reboot the system. Network functionality will be available after the restart.
+After the system boots, see the [Q911 Quick Start Guide → Interact with the System](../q911/README.md#interact-with-the-system) for the supported interaction methods (DisplayPort, SSH, ADB, UART).
