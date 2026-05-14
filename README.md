@@ -21,6 +21,8 @@
 
 Three common starting points. Pick the one that matches your goal today; you can always come back for another.
 
+> 💡 **Just received hardware?** Start at [Starting Guides](./tutorials/starting-guides/README.md) to boot your device first.
+
 | 🚀 Run a demo | 🛠 Develop & customize | 📊 Evaluate the platform |
 | --- | --- | --- |
 | **For FAEs and evaluators.** See an AI inference demo running on the hardware in under ten minutes. | **For application developers and ML engineers.** Swap models, change inputs, or deploy your own trained model. | **For PMs and integrators.** Review measured performance on real workloads and how iQ-Studio fits the platform stack. |
@@ -90,7 +92,7 @@ Our BSP foundation is published through [InnoIPA/meta-iQ__manifest](https://gith
 
 We also provide integrated and supplied [Ubuntu images](https://ubuntu.com/download/qualcomm-iot#evaluation-kit) for development.
 
-> Note: To keep all IO functions working correctly, use the Innodisk-provided Ubuntu image. See [InnoIPA/iQ-ubuntu](https://github.com/InnoIPA/iQ-ubuntu) (coming soon) for the available image versions. The official Ubuntu image from Qualcomm can boot on the platform but does not guarantee full IO support.
+> Note: To keep all IO functions working correctly, use the Innodisk-provided Ubuntu image. See [InnoIPA/iQ-ubuntu__manifest](https://github.com/InnoIPA/iQ-ubuntu__manifest) for the available image versions. The official Ubuntu image from Qualcomm can boot on the platform but does not guarantee full IO support.
 
 # How to Use iqs-launcher
 
@@ -206,7 +208,7 @@ iQ-Studio integrates with several sibling repositories. Each owns a specific lay
 
 - [InnoIPA/meta-iQ__manifest](https://github.com/InnoIPA/meta-iQ__manifest) — Yocto-based BSP baseline for the platform.
 - [InnoIPA/iQ-Cam__manifest](https://github.com/InnoIPA/iQ-Cam__manifest) — Camera driver patches consumed by the AVL tutorials.
-- [InnoIPA/iQ-ubuntu](https://github.com/InnoIPA/iQ-ubuntu) — Reference for Innodisk-provided Ubuntu image versions.
+- [InnoIPA/iQ-ubuntu__manifest](https://github.com/InnoIPA/iQ-ubuntu__manifest) — Reference for Innodisk-provided Ubuntu image versions.
 - [InnoIPA/iQ-Foundry](https://github.com/InnoIPA/iQ-Foundry) — End-to-end model quantization and on-device validation for custom models.
 
 # Changelog
