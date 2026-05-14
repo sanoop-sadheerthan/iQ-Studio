@@ -15,8 +15,8 @@ This guide focuses on the EXEC-Q911 and APEX-A100 platforms, providing an overvi
 
 ## BSP Version
 
-- **Yocto Linux**: released versions and the version rules are published in the [meta-iQ__manifest release table](https://github.com/InnoIPA/meta-iQ__manifest/releases).
-- **Ubuntu**: released versions and the version-numbering rules are published in the [iQ-ubuntu__manifest release table](https://github.com/InnoIPA/iQ-ubuntu__manifest/releases).
+- **Yocto Linux**: released versions and the version rules are published in the [meta-iQ__manifest release table](https://github.com/InnoIPA/meta-iQ__manifest).
+- **Ubuntu**: released versions and the version-numbering rules are published in the [iQ-ubuntu__manifest release table](https://github.com/InnoIPA/iQ-ubuntu__manifest).
 
 > Note: Yocto Linux ships pre-flashed on UFS. Ubuntu is not pre-flashed by default and requires the Innodisk-ported image (flashed via the [Q911 Image Flashing Guide](../flash-image/README.md)) to keep all IO functions working correctly.
 
