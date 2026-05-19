@@ -16,8 +16,9 @@ Use the focused skills in `.agents/skills/` instead of duplicating rules here:
 - `iq-studio-literacy`: documentation language quality, official naming, capitalization, status wording, punctuation, and professional English.
 - `iq-studio-formatting`: Markdown structure, headings, image paths, notes, relative links, code blocks, and audit-tool compliance.
 - `iq-studio-commit-log`: commit message drafting, commit-log review, staging scope checks, and commit-splitting guidance.
+- `iq-studio-changelog`: release changelog drafting and review, with version scope anchored to git tags and bullets reconciled against the current repository state.
 
-For Markdown work, use both `iq-studio-literacy` and `iq-studio-formatting`. For code-only launcher work, start with `iq-studio-agent` and load the documentation skills only when docs are touched.
+For Markdown work, use both `iq-studio-literacy` and `iq-studio-formatting`. For code-only launcher work, start with `iq-studio-agent` and load the documentation skills only when docs are touched. For release notes, use `iq-studio-changelog`; then run `iq-studio-literacy` over the draft if substantial prose was written.
 
 ## 1. Core Philosophy
 
