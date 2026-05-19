@@ -1,5 +1,28 @@
 # Changelogs
 
+## v0.0.8
+### Feat
+
+- Added a Qualcomm OTA Guide under Starting Guides, covering both Capsule and OSTree update flows
+- Added landing pages for Starting Guides, Applications, SDKs, and Benchmarks so each category has a clear entry point
+- Added `tools/compress_gifs.sh` for scanning and re-encoding oversized GIFs
+
+### Refactor
+
+- Restructured the entry README into three reader paths (run a demo, develop & customize, evaluate the platform) with a 30-Second Demo and category overviews
+- Reworked `docs/how-to-use-iqs-launcher.md` (formerly `how-to-install-offline-package-using-iqs-launcher.md`) to cover online and offline modes side by side
+- Split the Q911 Quick Start Guide into shared boot-up steps plus per-OS interaction pages for Yocto Linux and Ubuntu
+- Simplified the GMSL and MIPI camera AVL pages so the full driver content lives in `iQ-Cam__manifest`
+
+### Fixes
+
+- Corrected the `iQ-ubuntu__manifest` URL and other broken cross-document links
+
+### Chore
+
+- Re-encoded oversized GIFs with gifski to shrink repository size
+- Reorganized contributor guidance under `.agents/skills/` (replacing `IQS_FORMATTING.md` and `IQS_LITERACY.md`)
+
 ## v0.0.7
 ### Feat
 
