@@ -13,6 +13,7 @@
 - Reworked `docs/how-to-use-iqs-launcher.md` (formerly `how-to-install-offline-package-using-iqs-launcher.md`) to cover online and offline modes side by side
 - Split the Q911 Quick Start Guide into shared boot-up steps plus per-OS interaction pages for Yocto Linux and Ubuntu
 - Simplified the GMSL and MIPI camera AVL pages so the full driver content lives in `iQ-Cam__manifest`
+- Reworked the AVL root README to replace static figures with product-linked tables and source-aligned camera and peripheral fields
 
 ### Fixes
 
